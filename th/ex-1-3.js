@@ -9,6 +9,11 @@
 
 // Start coding here
 
+/* function availableSeat(guestList, number) {
+    return guestList.slice(0, number);
+} */
+const availableSeat = (guestList, number) => guestList.slice(0, number)
+
 const guestList = [
   "John",
   "Sarah",
